@@ -11,7 +11,6 @@ public class BallBounce : MonoBehaviour
         rb=GetComponent<Rigidbody2D>();
     }
 
-    
     void Update()
     {
         LastVelocity = rb.velocity;
@@ -21,9 +20,7 @@ public class BallBounce : MonoBehaviour
     {
         var speed=LastVelocity.magnitude;
         var direction = Vector3.Reflect(LastVelocity.normalized, collision.contacts[0].normal);
-        rb.velocity = direction * Mathf.Max(speed, 0f);
-
-      
+        rb.velocity = direction * Mathf.Max(speed, 0f); 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

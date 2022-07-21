@@ -48,7 +48,6 @@ public class Barrel : MonoBehaviour
     {
         moveDir = Input.GetAxis("Horizontal");
         //targetPos = new Vector2(Mathf.Clamp(transform.position.x + moveSpeed * moveDir * Time.deltaTime, -2f, 2f), Mathf.Clamp(transform.position.y, -1.7f, 1.7f));
-        
         rb.velocity=new Vector2(moveDir*moveSpeed, rb.velocity.y);
     }
 }

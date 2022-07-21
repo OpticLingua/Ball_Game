@@ -226,7 +226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 429192429}
   m_Layer: 0
-  m_Name: Tip
+  m_Name: Shooter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 1198738327}
   - component: {fileID: 1198738328}
   m_Layer: 0
-  m_Name: we
+  m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 1771173560}
   - component: {fileID: 1771173559}
   m_Layer: 0
-  m_Name: werewer
+  m_Name: Crosshairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
