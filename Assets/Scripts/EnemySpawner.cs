@@ -10,13 +10,14 @@ public class EnemySpawner : MonoBehaviour
     public static bool spawnAllowed;
     void Start()
     {
-        InvokeRepeating("Spawner", 2f, 1f);
+        InvokeRepeating("Spawner", 0f, 1f);
+        InvokeRepeating("Spawner", 0f, 1f);
     }
 
-   void Spawner()
-    {
+   public void Spawner()
+   {
         randomSpawnPoint=Random.Range(0, spawnPoints.Length);
         randomMonster = Random.Range(0, monsters.Length);
         Instantiate(monsters[randomMonster], spawnPoints[randomSpawnPoint].position, Quaternion.identity);
-    }
+   }
 }

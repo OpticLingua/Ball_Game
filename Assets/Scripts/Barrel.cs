@@ -31,7 +31,7 @@ public class Barrel : MonoBehaviour
         float rotationZ = Mathf.Atan2(difference.x, difference.y) * Mathf.Rad2Deg;
         player.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -rotationZ);
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonUp(0))
         {
             Fire();
         }
@@ -40,8 +40,8 @@ public class Barrel : MonoBehaviour
 
     private void Fire()
     {
-        GameObject firedBullet = Instantiate(bullet, barrelTip.position, barrelTip.rotation);
-        firedBullet.GetComponent<Rigidbody2D>().velocity = barrelTip.up * 10f;
+        GameObject firedBullet1 = Instantiate(bullet, barrelTip.position, barrelTip.rotation);
+        firedBullet1.GetComponent<Rigidbody2D>().velocity = barrelTip.up * 10f;
     }
 
     private void Movement()
