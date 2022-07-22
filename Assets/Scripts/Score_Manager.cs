@@ -13,7 +13,7 @@ public class Score_Manager : MonoBehaviour
         highscore = PlayerPrefs.GetFloat("highscore");
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         scoretext.text = Score.ToString();

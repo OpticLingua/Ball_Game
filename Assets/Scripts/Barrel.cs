@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-
 public class Barrel : MonoBehaviour
 {
     public Transform barrelTip;
@@ -44,6 +42,7 @@ public class Barrel : MonoBehaviour
         firedBullet1.GetComponent<Rigidbody2D>().velocity = barrelTip.up * 10f;
     }
 
+    
     private void Movement()
     {
         moveDir = Input.GetAxis("Horizontal");
