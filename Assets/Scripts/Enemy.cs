@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Enemy : MonoBehaviour
 {
     Rigidbody2D rb;
     Vector3 dirToTarget;
-   public GameObject target;
+    public GameObject target;
     public float moveSpeed;
     private void Start()
     {
@@ -22,7 +23,13 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ball")
         {
+            Score_Manager.score += 1;
             Destroy(this.gameObject);
+        }
+        if (collision.gameObject.tag == "Barrel")
+        {
+            Destroy(collision.gameObject);
+            SceneManager.LoadScene("GameOver");
         }
     }
 
