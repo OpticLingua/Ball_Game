@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ball")
         {
-            Score_Manager.score += 1;
+            Score_Manager.Score += 1;
             Destroy(this.gameObject);
         }
         if (collision.gameObject.tag == "Barrel")
