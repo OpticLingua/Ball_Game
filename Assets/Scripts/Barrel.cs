@@ -21,19 +21,22 @@ public class Barrel : MonoBehaviour
     
     void Update()
     {
-        //player.transform.position = new Vector3(Mathf.Clamp(transform.position.x, -2f, 2f),transform.position.y,transform.position.z);
-        target = transform.GetComponent<Camera>().ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, transform.position.z));
-        crosshairs.transform.position = new Vector2(target.x, target.y);
-
-        Vector3 difference = target - player.transform.position;
-        float rotationZ = Mathf.Atan2(difference.x, difference.y) * Mathf.Rad2Deg;
-        player.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -rotationZ);
-
-        if (Input.GetMouseButtonUp(0))
+        if (UIPages.IsPaused == false)
         {
-            Fire();
+            //player.transform.position = new Vector3(Mathf.Clamp(transform.position.x, -2f, 2f),transform.position.y,transform.position.z);
+            target = transform.GetComponent<Camera>().ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, transform.position.z));
+            crosshairs.transform.position = new Vector2(target.x, target.y);
+
+            Vector3 difference = target - player.transform.position;
+            float rotationZ = Mathf.Atan2(difference.x, difference.y) * Mathf.Rad2Deg;
+            player.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -rotationZ);
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                Fire();
+            }
+            Movement();
         }
-        Movement();
     }
 
     private void Fire()
