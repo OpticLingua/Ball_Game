@@ -7,6 +7,7 @@ TagManager:
   - Down
   - Ball
   - Barrel
+  - Tank
   layers:
   - Default
   - TransparentFX
