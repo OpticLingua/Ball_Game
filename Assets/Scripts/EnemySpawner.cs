@@ -6,7 +6,7 @@ public class EnemySpawner : MonoBehaviour
     public Transform[] spawnPoints;
     public GameObject[] monsters;
     public GameObject boss;
-    public Transform player;
+    public GameObject player;
     int randomSpawnPoint, randomMonster;
     public static bool spawnAllowed;
     void Start()
@@ -14,7 +14,7 @@ public class EnemySpawner : MonoBehaviour
 
         InvokeRepeating("Spawner", 0f, 1f);
         InvokeRepeating("Spawner", 0f, 1f);
-        //InvokeRepeating("BossSpawner", 0f, 1f);
+        
     }
 
    public void Spawner()
@@ -33,13 +33,13 @@ public class EnemySpawner : MonoBehaviour
 
     }
 
-
-
-
-
-    void Update()
+    private void Update()
     {
-
+       
+        Vector3 difference = player.transform.position - boss.transform.position;
+        float rotationZ = Mathf.Atan2(difference.x, difference.y) * Mathf.Rad2Deg;
+        boss.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -rotationZ);
     }
-    
+
+
 }

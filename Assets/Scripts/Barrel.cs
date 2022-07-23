@@ -23,7 +23,6 @@ public class Barrel : MonoBehaviour
     {
         if (UIPages.IsPaused == false)
         {
-            //player.transform.position = new Vector3(Mathf.Clamp(transform.position.x, -2f, 2f),transform.position.y,transform.position.z);
             target = transform.GetComponent<Camera>().ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, transform.position.z));
             crosshairs.transform.position = new Vector2(target.x, target.y);
 
@@ -31,7 +30,7 @@ public class Barrel : MonoBehaviour
             float rotationZ = Mathf.Atan2(difference.x, difference.y) * Mathf.Rad2Deg;
             player.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -rotationZ);
 
-            if (Input.GetMouseButtonUp(0))
+            if (Input.GetMouseButtonDown(0))
             {
                 Fire();
             }
@@ -49,7 +48,6 @@ public class Barrel : MonoBehaviour
     private void Movement()
     {
         moveDir = Input.GetAxis("Horizontal");
-        //targetPos = new Vector2(Mathf.Clamp(transform.position.x + moveSpeed * moveDir * Time.deltaTime, -2f, 2f), Mathf.Clamp(transform.position.y, -1.7f, 1.7f));
         rb.velocity=new Vector2(moveDir*moveSpeed, rb.velocity.y);
     }
 }
