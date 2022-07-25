@@ -12,8 +12,6 @@ public class Score_Manager : MonoBehaviour
     {
         highscore = PlayerPrefs.GetFloat("highscore");
     }
-
-   
     void Update()
     {
         scoretext.text = Score.ToString();
@@ -21,7 +19,6 @@ public class Score_Manager : MonoBehaviour
         if (Score>highscore)
             PlayerPrefs.SetFloat("highscore",Score);
     }
-
     public void DeletePlayerPrefs()
     {
         PlayerPrefs.DeleteAll();

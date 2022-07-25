@@ -13,7 +13,6 @@ public class BossEnemy : MonoBehaviour
     float nextFire;
     public void Start()
     {
-        
          fireRate = 5f;
          nextFire = Time.time;
     }

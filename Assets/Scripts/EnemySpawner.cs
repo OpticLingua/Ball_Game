@@ -16,25 +16,16 @@ public class EnemySpawner : MonoBehaviour
         InvokeRepeating("Spawner", 0f, 1f);
         Invoke("BossSpawner", 10f);
     }
-
    public void Spawner()
    {
         randomSpawnPoint=Random.Range(0, spawnPoints.Length);
         randomMonster = Random.Range(0, monsters.Length);
         Instantiate(monsters[randomMonster], spawnPoints[randomSpawnPoint].position, Quaternion.identity);
    }
-
    public void BossSpawner()
    {
-
         randomSpawnPoint = Random.Range(0, spawnPoints.Length);
         randomMonster = Random.Range(0, monsters.Length);
         Instantiate(boss, spawnPoints[randomSpawnPoint].position, Quaternion.identity);
-       
-
    }
-
-   
-
-
 }

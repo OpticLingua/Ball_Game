@@ -17,8 +17,6 @@ public class Barrel : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
     }
-
-    
     void Update()
     {
         if (UIPages.IsPaused == false)
@@ -37,14 +35,11 @@ public class Barrel : MonoBehaviour
             Movement();
         }
     }
-
     private void Fire()
     {
         GameObject firedBullet1 = Instantiate(bullet, barrelTip.position, barrelTip.rotation);
         firedBullet1.GetComponent<Rigidbody2D>().velocity = barrelTip.up * 10f;
     }
-
-    
     private void Movement()
     {
         moveDir = Input.GetAxis("Horizontal");

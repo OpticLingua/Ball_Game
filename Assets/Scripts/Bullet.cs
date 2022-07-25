@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class Bullet : MonoBehaviour 
 {
-
 	float moveSpeed = 3f;
 	Rigidbody2D rb;
 	private GameObject target;
@@ -14,7 +13,6 @@ public class Bullet : MonoBehaviour
 	public Image health;
 	void Start ()
 	{
-		
 		rb = GetComponent<Rigidbody2D> ();
 		target = GameObject.FindWithTag("Barrel");
 		moveDirection = (target.transform.position - transform.position).normalized * moveSpeed;
@@ -34,9 +32,6 @@ public class Bullet : MonoBehaviour
 				Destroy(collision.gameObject);
 				Destroy(this.gameObject);
 			}
-
-
 		}
 	}
-
 }
