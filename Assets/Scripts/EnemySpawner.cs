@@ -14,7 +14,7 @@ public class EnemySpawner : MonoBehaviour
 
         InvokeRepeating("Spawner", 0f, 1f);
         InvokeRepeating("Spawner", 0f, 1f);
-        
+        Invoke("BossSpawner", 10f);
     }
 
    public void Spawner()
@@ -30,19 +30,11 @@ public class EnemySpawner : MonoBehaviour
         randomSpawnPoint = Random.Range(0, spawnPoints.Length);
         randomMonster = Random.Range(0, monsters.Length);
         Instantiate(boss, spawnPoints[randomSpawnPoint].position, Quaternion.identity);
-        Update();
+       
 
    }
 
-    void Update()
-    {
-        if (boss.gameObject.tag == "Tank")
-        {
-            Vector3 difference = boss.transform.position - player.transform.position;
-            float rotationZ = Mathf.Atan2(difference.x, difference.y) * Mathf.Rad2Deg;
-            boss.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -rotationZ);
-        }
-    }
+   
 
 
 }

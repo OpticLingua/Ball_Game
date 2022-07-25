@@ -32,8 +32,11 @@ public class Enemy : MonoBehaviour
             Destroy(this.gameObject);
             Destroy(collision.gameObject);
             flag += 1;
-            if (flag % 10 == 0)
-               spawn.BossSpawner();
+            if (flag % 10 == 0 && BallBounce.IsDestroyed == true)
+            {
+                spawn.BossSpawner();
+                BallBounce.IsDestroyed = false;
+            }
         }
         if (collision.gameObject.tag == "Barrel")
         {
