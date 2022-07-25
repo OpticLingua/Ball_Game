@@ -8,6 +8,7 @@ TagManager:
   - Ball
   - Barrel
   - Tank
+  - HealthBar
   layers:
   - Default
   - TransparentFX

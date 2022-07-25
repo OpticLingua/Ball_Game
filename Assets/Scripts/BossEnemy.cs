@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class BossEnemy : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject boss;
-
+    private GameObject player;
+    private GameObject boss;
     public Transform firepoint;
     public GameObject bulletPrefab;
     public float bulletForce = 10f;
