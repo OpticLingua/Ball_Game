@@ -45,7 +45,6 @@ public class BallBounce : MonoBehaviour
             Destroy(collision.gameObject);
             PowerUPS();
             PowerUPS();
-            PowerUPS();
         }
     }
 
