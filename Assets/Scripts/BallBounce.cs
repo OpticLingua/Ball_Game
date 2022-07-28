@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class BallBounce : MonoBehaviour
 {
     Rigidbody2D rb;
     Vector3 LastVelocity;
     public static bool IsDestroyed = false;
     public GameObject bullet;
+    public GameObject tank;
+    private Image tank_health;
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
+        tank = GameObject.FindWithTag("Tank_Health_bar");
+        tank_health=tank.GetComponent<Image>();
     }
 
     void Update()
@@ -26,10 +30,15 @@ public class BallBounce : MonoBehaviour
 
         if (collision.gameObject.tag == "Tank")
         {
-            Destroy(collision.gameObject);
+            tank_health.fillAmount -= 0.3f;
+            if (tank_health.fillAmount <= 0)
+            {
+                Destroy(collision.gameObject);
+                
+                IsDestroyed = true;
+            }
             Destroy(this.gameObject);
-            IsDestroyed = true;
-            
+
         }
 
         
