@@ -1,0 +1,1060 @@
+fileFormatVersion: 2
+guid: 0fb451c358aa24d45ae87a32c0f513ae
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 58
+        width: 325
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68117234def89d94f84f1893253c917e
+      internalID: -85137286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 363
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d30463787b24f747a1b856dcd1a2865
+      internalID: 697662975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 366
+        width: 4
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78afa66c0f469f64d8dc6c72bb40ab1c
+      internalID: 618361985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_3
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 366
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8433f40cb5b505d45998efc4d1688e35
+      internalID: -1957611449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_4
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 366
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3058737559f5614a907f09cc613fb75
+      internalID: -777982110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_5
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 384
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf8be7f2ddc3394c879f346faa81276
+      internalID: 1212100227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_6
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 390
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7629255a49ba244b191864a59d47e8
+      internalID: -590252051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_7
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 372
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daaeac807b0322746af567355ff89504
+      internalID: 471350453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 54
+        width: 334
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23de6cb2ff76ea4fa056fe19129896e
+      internalID: 46684330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_9
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 54
+        width: 327
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624596c014789154bab5c93137da6bc1
+      internalID: -1971784613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_10
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 54
+        width: 325
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82839d06a5a8f314085f8cc4a4372884
+      internalID: 561086184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_11
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 336
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54de2ccc55b0784c87a77d2217f41d8
+      internalID: -1555754540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_12
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 324
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c13c1bb3acd3f4e81d117405241535
+      internalID: 260678940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_13
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 330
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5b903ca2aab3846a8c4662fdeb2c96
+      internalID: 698013572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_14
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 318
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b232f15e17195274794762ff4e8527bb
+      internalID: 2070184185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_15
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 318
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487f0bb1a6c64464a915dd428870574d
+      internalID: -315054940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_16
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 306
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967b1f8f33b050448b8263b0d2e506f8
+      internalID: 2048510515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_17
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 294
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80f37555d4a67f438682016f61f30cf
+      internalID: 2068983602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 276
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156aa09c5f21ad04588a9f043c1f4539
+      internalID: 1933910570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_19
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 270
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb0ad988b4023e46affff081676c9aa
+      internalID: -1951776293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_20
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 270
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea5cb1b7977dd547a4f1ca004fb8e61
+      internalID: 613323269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_21
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 258
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e57b61e50c75e409724a52ecf9540b
+      internalID: -995325089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_22
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 252
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359dc696aa66e1741a64d92221930c0e
+      internalID: -1222295446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_23
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 252
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f18272d551ce8e4486a5a52bf6498e3
+      internalID: -546624102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_24
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 240
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e291e09e490ae7429ec884b878927a2
+      internalID: -1690805121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_25
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 186
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae701749ee4d36c4498d69fc0d9ed6e1
+      internalID: -1984643400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_26
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 234
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2ac95ca59ee1840a1abc82d158b2d3
+      internalID: 2092396436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_27
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 228
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d95d52aba2700846b07c5f3d2958d3c
+      internalID: 1037556505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_28
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c895effc5751554385966f0a66029db
+      internalID: 614861439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_29
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 24
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654191a71ce2fec488554a080f70e9e5
+      internalID: -408782289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_30
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 48
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778bb76caea9a7c4cac3f44a86296748
+      internalID: -1636569819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_31
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2dce2129d7d13479d6150471df7a2a
+      internalID: 1613165914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_32
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 42
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683d63cae15057647b030cacced007e2
+      internalID: -263402345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_33
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0ae3dee948c224a912d55bfe828482
+      internalID: 663933862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_34
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b83590736cc1949928e1c96c29c316
+      internalID: -1934269421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_35
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e056218ed42fed64c91a7969f45564e3
+      internalID: -943971960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_36
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3091ed9f9bb30654b8aff40148a745cd
+      internalID: -2027826003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_37
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 24
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01cc4ce6b24f1b4391f2d3120455029
+      internalID: -1434921739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_38
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7349b61222e51f4eaa77107bcf5d393
+      internalID: 2133270233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_39
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750518390a08fdf42a52469d0f6a74ef
+      internalID: 553032825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_40
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 175
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299cdb78361aca94499af8401531f5ab
+      internalID: -528448708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_36: -2027826003
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_28: 614861439
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_26: 2092396436
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_20: 613323269
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_29: -408782289
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_25: -1984643400
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_3: -1957611449
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_5: 1212100227
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_9: -1971784613
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_14: 2070184185
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_22: -1222295446
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_34: -1934269421
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_4: -777982110
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_11: -1555754540
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_40: -528448708
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_18: 1933910570
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_6: -590252051
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_35: -943971960
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_13: 698013572
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_27: 1037556505
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_10: 561086184
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_24: -1690805121
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_31: 1613165914
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_0: -85137286
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_1: 697662975
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_7: 471350453
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_2: 618361985
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_21: -995325089
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_33: 663933862
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_12: 260678940
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_23: -546624102
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_39: 553032825
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_30: -1636569819
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_37: -1434921739
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_16: 2048510515
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_17: 2068983602
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_8: 46684330
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_19: -1951776293
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_15: -315054940
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_32: -263402345
+      diamond-set-line-blue-yellow-pink-green-color-wedding-love-decoration-element-black-background-isolated-vector-illustration-144266993_38: 2133270233
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,6 +9,7 @@ TagManager:
   - Barrel
   - Tank
   - HealthBar
+  - PowerUPS
   layers:
   - Default
   - TransparentFX

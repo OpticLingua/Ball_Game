@@ -8,10 +8,9 @@ public class Enemy : MonoBehaviour
     public static int flag=1;
     Rigidbody2D rb;
     Vector3 dirToTarget;
-    public GameObject target;
+    private GameObject target;
     public float moveSpeed;
-
-    public EnemySpawner spawn;
+    private EnemySpawner spawn;
     private void Start()
     {
         target = GameObject.Find("Holder");

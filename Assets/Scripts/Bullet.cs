@@ -25,7 +25,7 @@ public class Bullet : MonoBehaviour
 	{
         if(collision.gameObject.tag=="Barrel")
         {
-			health.fillAmount -= 0.5f;
+			health.fillAmount -= 0.3f;
 			if (health.fillAmount <= 0)
 			{
 				SceneManager.LoadScene("GameOver");

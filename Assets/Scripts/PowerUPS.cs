@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class PowerUPS : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    private float rotZ;
+    public float RotationSpeed;
+    public bool ClockwiseRotation;
     void Update()
     {
-        
+        if (ClockwiseRotation == false)
+            rotZ += Time.deltaTime * RotationSpeed;
+        else
+            rotZ -= Time.deltaTime * RotationSpeed;
+        transform.rotation = Quaternion.Euler(0, 0, rotZ);
     }
 }
