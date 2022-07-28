@@ -7,6 +7,7 @@ public class BallBounce : MonoBehaviour
     Rigidbody2D rb;
     Vector3 LastVelocity;
     public static bool IsDestroyed = false;
+    public GameObject bullet;
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
@@ -30,12 +31,27 @@ public class BallBounce : MonoBehaviour
             IsDestroyed = true;
             
         }
+
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Down")
             Destroy(this.gameObject);
-       
+
+        if (collision.gameObject.tag == "PowerUPS")
+        {
+            Destroy(collision.gameObject);
+            PowerUPS();
+            PowerUPS();
+            PowerUPS();
+        }
+    }
+
+    public void PowerUPS()
+    {
+        GameObject firedBullet1 = Instantiate(bullet, gameObject.transform.position, gameObject.transform.rotation);
+        firedBullet1.GetComponent<Rigidbody2D>().velocity = gameObject.transform.right * 10f;
     }
 }

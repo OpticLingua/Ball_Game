@@ -27,7 +27,7 @@ public class UIPages : MonoBehaviour
     public void Resume()
     {
         Time.timeScale = 1;
-        Pausepanel?.SetActive(false);
+        Pausepanel.SetActive(false);
         Cursor.visible = false;
         IsPaused=false;
     }

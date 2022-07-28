@@ -11,7 +11,7 @@ public class Barrel : MonoBehaviour
     public Rigidbody2D rb;
     private float moveDir;
     public float moveSpeed;
-    private Vector2 targetPos;
+   
     void Start()
     {
         Cursor.visible = false;
@@ -35,7 +35,7 @@ public class Barrel : MonoBehaviour
             Movement();
         }
     }
-    private void Fire()
+    public void Fire()
     {
         GameObject firedBullet1 = Instantiate(bullet, barrelTip.position, barrelTip.rotation);
         firedBullet1.GetComponent<Rigidbody2D>().velocity = barrelTip.up * 10f;
