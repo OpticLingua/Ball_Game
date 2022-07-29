@@ -10,11 +10,13 @@ public class BallBounce : MonoBehaviour
     public GameObject bullet;
     public GameObject tank;
     private Image tank_health;
+    private Shake enemyShake;
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
         tank = GameObject.FindWithTag("Tank_Health_bar");
         tank_health=tank.GetComponent<Image>();
+        enemyShake= ScriptableObject.FindObjectOfType<Shake>();
     }
 
     void Update()
@@ -31,6 +33,8 @@ public class BallBounce : MonoBehaviour
         if (collision.gameObject.tag == "Tank")
         {
             tank_health.fillAmount -= 0.3f;
+            if(enemyShake.coroutineAllowed)
+            enemyShake.StartShaking();
             if (tank_health.fillAmount <= 0)
             {
                 Destroy(collision.gameObject);

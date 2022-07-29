@@ -15,10 +15,9 @@ public class EnemySpawner : MonoBehaviour
     {
 
         InvokeRepeating("Spawner", 0f, 1f);
-        InvokeRepeating("Spawner", 0f, 1f);
+        //InvokeRepeating("Spawner", 0f, 1f);
         Invoke("BossSpawner", 10f);
     }
-
    public void Spawner()
    {
         randomSpawnPoint=Random.Range(0, spawnPoints.Length);
@@ -31,13 +30,11 @@ public class EnemySpawner : MonoBehaviour
    public void BossSpawner()
    {
         randomSpawnPoint = Random.Range(0, spawnPoints.Length);
-        //randomMonster = Random.Range(0, monsters.Length);
         Instantiate(boss, spawnPoints[randomSpawnPoint].position, Quaternion.identity);
         ctr++;
         if (ctr % 3 == 0)
             PowerUPs();
    }
-
    public void PowerUPs()
    {
         randomSpawnPoint = Random.Range(0, spawnPoints.Length);

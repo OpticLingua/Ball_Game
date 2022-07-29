@@ -221,6 +221,7 @@ GameObject:
   - component: {fileID: 1896714053651488915}
   - component: {fileID: -3950860538782166157}
   - component: {fileID: 965105134042987093}
+  - component: {fileID: 5300612695743992048}
   m_Layer: 0
   m_Name: tank 1
   m_TagString: Tank
@@ -357,5 +358,18 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &5300612695743992048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6730142300162053695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f79349aa7604b42aa5cee2540ef36e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coroutineAllowed: 0
