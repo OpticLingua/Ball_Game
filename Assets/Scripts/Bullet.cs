@@ -31,6 +31,7 @@ public class Bullet : MonoBehaviour
 				SceneManager.LoadScene("GameOver");
 				Destroy(collision.gameObject);
 				Destroy(this.gameObject);
+				Cursor.visible = true;
 			}
 		}
 
