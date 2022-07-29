@@ -33,7 +33,7 @@ public class Barrel : MonoBehaviour
             float rotationZ = Mathf.Atan2(difference.x, difference.y) * Mathf.Rad2Deg;
             player.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -rotationZ);
 
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonUp(0))
             {
                 Fire();
             }
