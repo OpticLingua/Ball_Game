@@ -33,5 +33,10 @@ public class Bullet : MonoBehaviour
 				Destroy(this.gameObject);
 			}
 		}
+
+		if(collision.gameObject.tag=="Down")
+        {
+			Destroy(this.gameObject);
+        }
 	}
 }
