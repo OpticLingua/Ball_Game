@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 using UnityEngine.SceneManagement;
 public class UIPages : MonoBehaviour
 {
@@ -14,13 +16,18 @@ public class UIPages : MonoBehaviour
     public Sprite ball_3;
     public Sprite ball_4;
     public Sprite ball_5;
-    
-    public  void Awake()
-     {
+    //public Text highscore;
+    public  void Start()
+    {
         Pausepanel= GameObject.FindWithTag("PausePanel");
-        Pausepanel.SetActive(false);  
+        Pausepanel.SetActive(false);
+        //Debug.Log(Score_Manager.highpoints.ToString());
     }
-
+    private void Update()
+    {
+        //highscore.text = Score_Manager.highpoints.ToString();
+       // Debug.Log(Score_Manager.highpoints.ToString());
+    }
 
     public void Replay()
     {

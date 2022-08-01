@@ -8,6 +8,7 @@ public class Score_Manager : MonoBehaviour
     public static float Score;
     public static float highscore;
     public Text highscoretext;
+    public static float highpoints;
     void Start()
     {
         highscore = PlayerPrefs.GetFloat("highscore");
@@ -18,6 +19,9 @@ public class Score_Manager : MonoBehaviour
         highscoretext.text = highscore.ToString();
         if (Score>highscore)
             PlayerPrefs.SetFloat("highscore",Score);
+        highpoints = PlayerPrefs.GetFloat("highscore");
+        //Debug.Log(highpoints.ToString());
+       // Debug.Log(Score_Manager.highpoints.ToString());
     }
     public void DeletePlayerPrefs()
     {
