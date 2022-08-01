@@ -5,22 +5,26 @@ using UnityEngine.SceneManagement;
 public class UIPages : MonoBehaviour
 {
     private GameObject Pausepanel;
+    public SpriteRenderer mainBall;
     public static bool IsPaused = false;
-    public Animator settings;
-    public Animator store;
-    //private  Animator AnimSettings;
-    //private Animator AnimStore;
-     public  void Start()
-    {
+    public Animator settingsAnim;
+    public Animator storeAnim;
+    public Sprite ball_1;
+    public Sprite ball_2;
+    public Sprite ball_3;
+    public Sprite ball_4;
+    public Sprite ball_5;
+    
+    public  void Awake()
+     {
         Pausepanel= GameObject.FindWithTag("PausePanel");
-        Pausepanel.SetActive(false);
-        //settings = GameObject.FindWithTag("Settings");
-        //store= GameObject.FindWithTag("Store");
-       //AnimSettings = settings.GetComponent<Animator>();
-        //AnimStore = store.GetComponent<Animator>();
+        Pausepanel.SetActive(false);  
     }
+
+
     public void Replay()
     {
+        
         SceneManager.LoadScene("Game");
         Score_Manager.Score = 0;
     }
@@ -53,20 +57,47 @@ public class UIPages : MonoBehaviour
    
     public void Settings()
     {
-        settings.SetBool("Settings_pressed", true);
+        settingsAnim.SetBool("Settings_pressed", true);
+        
     }
     public void SettingsBack()
     {
-        settings.SetBool("Settings_pressed", false);
+        settingsAnim.SetBool("Settings_pressed", false);
     }
     public void Store()
     {
-        store.SetBool("Store_Pressed", true);
+        storeAnim.SetBool("Store_Pressed", true);
     }
     public void StoreBack()
     {
-        store.SetBool("Store_Pressed", false);
+        storeAnim.SetBool("Store_Pressed", false);
     }
 
-    
+    public void Ball_01()
+    {
+        mainBall.sprite = ball_1;
+        SceneManager.LoadScene("Game");
+    }
+    public void Ball_02()
+    {
+        mainBall.sprite = ball_2;
+        SceneManager.LoadScene("Game");
+    }
+    public void Ball_03()
+    {
+        mainBall.sprite = ball_3;
+        SceneManager.LoadScene("Game");
+    }
+    public void Ball_04()
+    {
+        mainBall.sprite = ball_4;
+        SceneManager.LoadScene("Game");
+    }
+    public void Ball_05()
+    {
+        mainBall.sprite = ball_5;
+        SceneManager.LoadScene("Game");
+    }
+
+
 }

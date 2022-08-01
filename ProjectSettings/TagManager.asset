@@ -12,8 +12,8 @@ TagManager:
   - PowerUPS
   - Tank_Health_bar
   - PausePanel
-  - Store
-  - Settings
+  - SettingsPanel
+  - StorePanel
   layers:
   - Default
   - TransparentFX
