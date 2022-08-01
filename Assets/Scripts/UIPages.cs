@@ -4,11 +4,20 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class UIPages : MonoBehaviour
 {
-    public GameObject Pausepanel;
+    private GameObject Pausepanel;
     public static bool IsPaused = false;
-    private void Start()
+    public Animator settings;
+    public Animator store;
+    //private  Animator AnimSettings;
+    //private Animator AnimStore;
+     public  void Start()
     {
+        Pausepanel= GameObject.FindWithTag("PausePanel");
         Pausepanel.SetActive(false);
+        //settings = GameObject.FindWithTag("Settings");
+        //store= GameObject.FindWithTag("Store");
+       //AnimSettings = settings.GetComponent<Animator>();
+        //AnimStore = store.GetComponent<Animator>();
     }
     public void Replay()
     {
@@ -31,4 +40,33 @@ public class UIPages : MonoBehaviour
         Cursor.visible = false;
         IsPaused=false;
     }
+
+   public void Play()
+   {
+        SceneManager.LoadScene("Game");
+   }
+
+   public void Exit()
+    {
+        Application.Quit();
+    }
+   
+    public void Settings()
+    {
+        settings.SetBool("Settings_pressed", true);
+    }
+    public void SettingsBack()
+    {
+        settings.SetBool("Settings_pressed", false);
+    }
+    public void Store()
+    {
+        store.SetBool("Store_Pressed", true);
+    }
+    public void StoreBack()
+    {
+        store.SetBool("Store_Pressed", false);
+    }
+
+    
 }

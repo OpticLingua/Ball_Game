@@ -623,7 +623,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89693c1593f5cd445af3913385495458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pausepanel: {fileID: 1970195706}
 --- !u!1 &304454967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,7 +1617,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Score - \n"
+  m_Text: 'Points -
+
+'
 --- !u!222 &980254600
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4226,11 +4227,11 @@ GameObject:
   - component: {fileID: 1970195708}
   m_Layer: 5
   m_Name: Panel
-  m_TagString: Untagged
+  m_TagString: PausePanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1970195707
 RectTransform:
   m_ObjectHideFlags: 0

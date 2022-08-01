@@ -11,6 +11,9 @@ TagManager:
   - HealthBar
   - PowerUPS
   - Tank_Health_bar
+  - PausePanel
+  - Store
+  - Settings
   layers:
   - Default
   - TransparentFX
