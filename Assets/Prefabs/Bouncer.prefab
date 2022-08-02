@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8782844957025037708}
   - component: {fileID: 486215124677825028}
   - component: {fileID: -7945145489397226000}
-  - component: {fileID: 7566999402784558631}
+  - component: {fileID: 1549352898420304875}
   m_Layer: 0
   m_Name: Bouncer
   m_TagString: Untagged
@@ -107,7 +107,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &7566999402784558631
+--- !u!114 &1549352898420304875
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,6 +116,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7661495992851017512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efe4039846f5ebb4a8afa96a72190750, type: 3}
+  m_Script: {fileID: 11500000, guid: 9010499ec9f8aab4fa87cd8bedd30f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

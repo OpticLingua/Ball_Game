@@ -14,6 +14,7 @@ TagManager:
   - PausePanel
   - SettingsPanel
   - StorePanel
+  - enemy
   layers:
   - Default
   - TransparentFX

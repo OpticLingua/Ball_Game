@@ -11,6 +11,8 @@ public class Enemy : MonoBehaviour
     private GameObject target;
     public float moveSpeed;
     private EnemySpawner spawn;
+    public AudioSource barrelDeath;
+    public AudioSource enemyDeath;
     private void Start()
     {
         target = GameObject.Find("Holder");
@@ -27,8 +29,9 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ball")
         {
+            enemyDeath.Play();
             Score_Manager.Score += 1;
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
             Destroy(collision.gameObject);
             flag += 1;
             if (flag % 10 == 0 && BallBounce.IsDestroyed == true)
@@ -39,6 +42,7 @@ public class Enemy : MonoBehaviour
         }
         if (collision.gameObject.tag == "Barrel")
         {
+            barrelDeath.Play();
             Destroy(collision.gameObject);
             SceneManager.LoadScene("GameOver");
         }

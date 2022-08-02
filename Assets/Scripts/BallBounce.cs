@@ -8,15 +8,16 @@ public class BallBounce : MonoBehaviour
     Vector3 LastVelocity;
     public static bool IsDestroyed = false;
     public GameObject bullet;
-    public GameObject tank;
+    private GameObject tank;
     private Image tank_health;
-    private Shake enemyShake;
+    private BossEnemy enemyShake;
+   
     private void Start()
     {
         rb=GetComponent<Rigidbody2D>();
         tank = GameObject.FindWithTag("Tank_Health_bar");
         tank_health=tank.GetComponent<Image>();
-        enemyShake= ScriptableObject.FindObjectOfType<Shake>();
+        enemyShake= ScriptableObject.FindObjectOfType<BossEnemy>();
     }
 
     void Update()
@@ -33,6 +34,7 @@ public class BallBounce : MonoBehaviour
 
         if (collision.gameObject.tag == "Tank")
         {
+            
             tank_health.fillAmount -= 0.3f;
             if(enemyShake.coroutineAllowed)
             enemyShake.StartShaking();
@@ -46,6 +48,7 @@ public class BallBounce : MonoBehaviour
 
         }
 
+       
         
     }
 
