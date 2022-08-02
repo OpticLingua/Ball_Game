@@ -6,9 +6,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 public class UIPages : MonoBehaviour
 {
-    private GameObject Pausepanel;
     public SpriteRenderer mainBall;
-    public static bool IsPaused = false;
     public Animator settingsAnim;
     public Animator storeAnim;
     public Sprite ball_1;
@@ -16,43 +14,12 @@ public class UIPages : MonoBehaviour
     public Sprite ball_3;
     public Sprite ball_4;
     public Sprite ball_5;
-    //public Text highscore;
-    public  void Start()
-    {
-        Pausepanel= GameObject.FindWithTag("PausePanel");
-        Pausepanel.SetActive(false);
-        //Debug.Log(Score_Manager.highpoints.ToString());
-    }
-    private void Update()
-    {
-        //highscore.text = Score_Manager.highpoints.ToString();
-       // Debug.Log(Score_Manager.highpoints.ToString());
-    }
-
     public void Replay()
     {
-        
         SceneManager.LoadScene("Game");
         Score_Manager.Score = 0;
     }
-
-    public void Pause()
-    {
-        Time.timeScale = 0;
-        Pausepanel.SetActive(true);
-        Cursor.visible = true;
-        IsPaused = true;
-    }
-
-    public void Resume()
-    {
-        Time.timeScale = 1;
-        Pausepanel.SetActive(false);
-        Cursor.visible = false;
-        IsPaused=false;
-    }
-
-   public void Play()
+  public void Play()
    {
         SceneManager.LoadScene("Game");
    }

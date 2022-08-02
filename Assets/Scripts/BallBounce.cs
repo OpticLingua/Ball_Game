@@ -11,7 +11,7 @@ public class BallBounce : MonoBehaviour
     public GameObject tank;
     private Image tank_health;
     private Shake enemyShake;
-    void Start()
+    private void Start()
     {
         rb=GetComponent<Rigidbody2D>();
         tank = GameObject.FindWithTag("Tank_Health_bar");
@@ -22,6 +22,7 @@ public class BallBounce : MonoBehaviour
     void Update()
     {
         LastVelocity = rb.velocity;
+      
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

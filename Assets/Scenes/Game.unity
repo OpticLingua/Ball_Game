@@ -620,17 +620,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 231637535}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89693c1593f5cd445af3913385495458, type: 3}
+  m_Script: {fileID: 11500000, guid: dabe8bc14014f684a9a48c737a5e3405, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainBall: {fileID: 0}
-  settingsAnim: {fileID: 0}
-  storeAnim: {fileID: 0}
-  ball_1: {fileID: 0}
-  ball_2: {fileID: 0}
-  ball_3: {fileID: 0}
-  ball_4: {fileID: 0}
-  ball_5: {fileID: 0}
+  PausePanel: {fileID: 1970195706}
 --- !u!1 &304454967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1889,7 +1882,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 231637541}
-        m_TargetAssemblyTypeName: UIPages, Assembly-CSharp
+        m_TargetAssemblyTypeName: PauseMenuUI, Assembly-CSharp
         m_MethodName: Resume
         m_Mode: 1
         m_Arguments:
@@ -3368,7 +3361,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 231637541}
-        m_TargetAssemblyTypeName: UIPages, Assembly-CSharp
+        m_TargetAssemblyTypeName: PauseMenuUI, Assembly-CSharp
         m_MethodName: Pause
         m_Mode: 1
         m_Arguments:
