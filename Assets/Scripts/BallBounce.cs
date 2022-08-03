@@ -11,7 +11,8 @@ public class BallBounce : MonoBehaviour
     private GameObject tank;
     private Image tank_health;
     private BossEnemy enemyShake;
-   
+    public Collider2D collider1;
+    public Collider2D collider2;
     private void Start()
     {
         rb=GetComponent<Rigidbody2D>();
@@ -48,14 +49,20 @@ public class BallBounce : MonoBehaviour
 
         }
 
-       
+         if(collision.gameObject.tag=="Barrel")
+         {
+            Physics2D.IgnoreCollision(collider1, collider2);
+            Debug.Log("sfsdf");
+         }
         
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Down")
+        {
             Destroy(this.gameObject);
+        }
 
         if (collision.gameObject.tag == "PowerUPS")
         {

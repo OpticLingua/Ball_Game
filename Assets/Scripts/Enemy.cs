@@ -40,6 +40,7 @@ public class Enemy : MonoBehaviour
                 BallBounce.IsDestroyed = false;
             }
         }
+
         if (collision.gameObject.tag == "Barrel")
         {
             barrelDeath.Play();
@@ -47,6 +48,8 @@ public class Enemy : MonoBehaviour
             SceneManager.LoadScene("GameOver");
         }
     }
+
+   
 
     void MoveEnemy()
     {

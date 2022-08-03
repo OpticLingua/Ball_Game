@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 public class Barrel : MonoBehaviour
 {
-    public Transform barrelTip;
+    public Transform barrelTip1;
+    public Transform barrelTip2;
+    public Transform barrelTip3;
     public GameObject bullet;
     public GameObject crosshairs;
     public GameObject player;
@@ -11,7 +13,7 @@ public class Barrel : MonoBehaviour
     public Rigidbody2D rb;
     private float moveDir;
     public float moveSpeed;
-
+    //public Collider2D collider;
     void Start()
     {
         Cursor.visible = false;
@@ -19,6 +21,7 @@ public class Barrel : MonoBehaviour
     }
     void Update()
     {
+        
         if (PauseMenuUI.IsPaused == false)
         {
             target = transform.GetComponent<Camera>().ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, transform.position.z));
@@ -31,15 +34,19 @@ public class Barrel : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 Fire();
+                 
+                
             }
             Movement();
+           
         }
     }
     public void Fire()
     {
-        GameObject firedBullet1 = Instantiate(bullet, barrelTip.position, barrelTip.rotation);
-        firedBullet1.GetComponent<Rigidbody2D>().velocity = barrelTip.up * 15f;
+        GameObject firedBullet1 = Instantiate(bullet, barrelTip1.position, barrelTip1.rotation);
+        firedBullet1.GetComponent<Rigidbody2D>().velocity = barrelTip1.up * 15f;
     }
+   
     private void Movement()
     {
         moveDir = Input.GetAxis("Horizontal");
@@ -47,4 +54,5 @@ public class Barrel : MonoBehaviour
     }
 
    
+
 }
