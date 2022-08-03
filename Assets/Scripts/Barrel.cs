@@ -13,7 +13,7 @@ public class Barrel : MonoBehaviour
     public Rigidbody2D rb;
     private float moveDir;
     public float moveSpeed;
-    //public Collider2D collider;
+    public GameObject ballPrefab;
     void Start()
     {
         Cursor.visible = false;
@@ -31,11 +31,14 @@ public class Barrel : MonoBehaviour
             float rotationZ = Mathf.Atan2(difference.x, difference.y) * Mathf.Rad2Deg;
             player.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -rotationZ);
 
-            if (Input.GetMouseButtonUp(0))
+            if (GameObject.Find("Ball(Clone)") == null)
             {
-                Fire();
-                 
-                
+                if (Input.GetMouseButtonUp(0))
+                {
+                    Fire();
+                    Invoke("Fire", 0.2f);
+                    Invoke("Fire", 0.4f);
+                }
             }
             Movement();
            
