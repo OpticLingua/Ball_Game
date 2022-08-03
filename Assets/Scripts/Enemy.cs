@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
         {
             enemyDeath.Play();
             Score_Manager.Score += 1;
-            //Destroy(this.gameObject);
+            Destroy(this.gameObject);
             Destroy(collision.gameObject);
             flag += 1;
             if (flag % 10 == 0 && BallBounce.IsDestroyed == true)
