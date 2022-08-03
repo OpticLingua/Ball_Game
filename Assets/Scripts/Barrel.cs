@@ -38,7 +38,7 @@ public class Barrel : MonoBehaviour
     public void Fire()
     {
         GameObject firedBullet1 = Instantiate(bullet, barrelTip.position, barrelTip.rotation);
-        firedBullet1.GetComponent<Rigidbody2D>().velocity = barrelTip.up * 10f;
+        firedBullet1.GetComponent<Rigidbody2D>().velocity = barrelTip.up * 15f;
     }
     private void Movement()
     {

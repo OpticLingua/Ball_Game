@@ -37,6 +37,9 @@ public class PauseMenuUI : MonoBehaviour
     public void MainMenu()
     {
         button.Play();
+        Time.timeScale = 1;
+        PausePanel.SetActive(false);
+        IsPaused = false;
         SceneManager.LoadScene("HomePage");
     }
 }
