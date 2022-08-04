@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
 	private GameObject target;
 	Vector2 moveDirection;
     GameObject healthBar;
-	public Image health;
+	private Image health;
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody2D> ();

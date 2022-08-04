@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 038c4a84e577cde4dbf946f3434fc8e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.8
+  moveSpeed: 0.5
   barrelDeath: {fileID: 5703390650826021473}
   enemyDeath: {fileID: 291518429110513536}
 --- !u!58 &8692473898275862426

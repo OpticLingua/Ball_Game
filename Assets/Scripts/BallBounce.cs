@@ -11,13 +11,18 @@ public class BallBounce : MonoBehaviour
     private GameObject tank;
     private Image tank_health;
     private BossEnemy enemyShake;
-    public Collider2D collider1;
-    public Collider2D collider2;
+    public AudioSource PowerUpAudio;
+    private bool IsFound = false;
     private void Start()
     {
         rb=GetComponent<Rigidbody2D>();
-        tank = GameObject.FindWithTag("Tank_Health_bar");
-        tank_health=tank.GetComponent<Image>();
+        if (GameObject.FindWithTag("Tank") != null)
+        {
+            tank = GameObject.FindWithTag("Tank_Health_bar");
+            tank_health = tank.GetComponent<Image>();
+            IsFound = true;
+        }
+        
         enemyShake= ScriptableObject.FindObjectOfType<BossEnemy>();
     }
 
@@ -35,25 +40,23 @@ public class BallBounce : MonoBehaviour
 
         if (collision.gameObject.tag == "Tank")
         {
-            
-            tank_health.fillAmount -= 0.3f;
-            if(enemyShake.coroutineAllowed)
-            enemyShake.StartShaking();
-            if (tank_health.fillAmount <= 0)
+            if (IsFound)
             {
-                Destroy(collision.gameObject);
-                
-                IsDestroyed = true;
+                tank_health.fillAmount -= 0.3f;
+                if (enemyShake.coroutineAllowed)
+                    enemyShake.StartShaking();
+                if (tank_health.fillAmount <= 0)
+                {
+                    Destroy(collision.gameObject);
+
+                    IsDestroyed = true;
+                }
+                Destroy(this.gameObject);
             }
-            Destroy(this.gameObject);
 
         }
 
-         if(collision.gameObject.tag=="Barrel")
-         {
-            Physics2D.IgnoreCollision(collider1, collider2);
-            Debug.Log("sfsdf");
-         }
+        
         
     }
 
@@ -66,6 +69,7 @@ public class BallBounce : MonoBehaviour
 
         if (collision.gameObject.tag == "PowerUPS")
         {
+            PowerUpAudio.Play();
             Destroy(collision.gameObject);
             PowerUPS();
             PowerUPS();

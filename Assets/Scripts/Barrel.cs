@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class Barrel : MonoBehaviour
 {
-    public Transform barrelTip1;
-    public Transform barrelTip2;
-    public Transform barrelTip3;
+    public Transform barrelTip;
     public GameObject bullet;
     public GameObject crosshairs;
     public GameObject player;
@@ -13,7 +11,6 @@ public class Barrel : MonoBehaviour
     public Rigidbody2D rb;
     private float moveDir;
     public float moveSpeed;
-    public GameObject ballPrefab;
     void Start()
     {
         Cursor.visible = false;
@@ -22,7 +19,7 @@ public class Barrel : MonoBehaviour
     void Update()
     {
         
-        if (PauseMenuUI.IsPaused == false)
+        if (PauseMenuUI.IsPaused == false && GameObject.FindWithTag("Barrel")!=null)
         {
             target = transform.GetComponent<Camera>().ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, transform.position.z));
             crosshairs.transform.position = new Vector2(target.x, target.y);
@@ -36,8 +33,9 @@ public class Barrel : MonoBehaviour
                 if (Input.GetMouseButtonUp(0))
                 {
                     Fire();
+                    Invoke("Fire", 0.1f);
                     Invoke("Fire", 0.2f);
-                    Invoke("Fire", 0.4f);
+                    Invoke("Fire", 0.3f);
                 }
             }
             Movement();
@@ -46,8 +44,8 @@ public class Barrel : MonoBehaviour
     }
     public void Fire()
     {
-        GameObject firedBullet1 = Instantiate(bullet, barrelTip1.position, barrelTip1.rotation);
-        firedBullet1.GetComponent<Rigidbody2D>().velocity = barrelTip1.up * 15f;
+        GameObject firedBullet = Instantiate(bullet, barrelTip.position, barrelTip.rotation);
+        firedBullet.GetComponent<Rigidbody2D>().velocity = barrelTip.up * 15f;
     }
    
     private void Movement()

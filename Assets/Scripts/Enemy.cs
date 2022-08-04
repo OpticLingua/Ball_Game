@@ -22,6 +22,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
+        if(GameObject.FindWithTag("Barrel")!=null)
         MoveEnemy();
         
     }
@@ -45,6 +46,7 @@ public class Enemy : MonoBehaviour
         {
             barrelDeath.Play();
             Destroy(collision.gameObject);
+            Destroy(this.gameObject);
             SceneManager.LoadScene("GameOver");
         }
     }

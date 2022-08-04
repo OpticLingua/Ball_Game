@@ -23,12 +23,15 @@ public class BossEnemy : MonoBehaviour
     }
     void Update()
     {
-        player = GameObject.FindWithTag("Barrel");
-        boss = GameObject.FindWithTag("Tank");
-        Vector3 difference = boss.transform.position - player.transform.position;
-        float rotationZ = Mathf.Atan2(difference.x, difference.y) * Mathf.Rad2Deg;
-        boss.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -rotationZ);       
-        Invoke("CheckIfTimeToFire",4);
+        if (GameObject.FindWithTag("Barrel") != null)
+        {
+            player = GameObject.FindWithTag("Barrel");
+            boss = GameObject.FindWithTag("Tank");
+            Vector3 difference = boss.transform.position - player.transform.position;
+            float rotationZ = Mathf.Atan2(difference.x, difference.y) * Mathf.Rad2Deg;
+            boss.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -rotationZ);
+            Invoke("CheckIfTimeToFire", 4);
+        }
     }
 
     void CheckIfTimeToFire()

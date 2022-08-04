@@ -311,7 +311,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0021443814, y: 0.122701645}
+  m_Offset: {x: 0.0021443963, y: 0.122701645}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -340,7 +340,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6563785625963685128, guid: 60a2be94aadbac14c9298f0b1690d46d, type: 3}
   bulletForce: 10
   coroutineAllowed: 0
-  TankDeathAudio: {fileID: 0}
   TankShakeAudio: {fileID: -3743807269597693612}
 --- !u!50 &965105134042987093
 Rigidbody2D:

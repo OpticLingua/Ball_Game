@@ -7,6 +7,7 @@ public class PowerUPS : MonoBehaviour
     private float rotZ;
     public float RotationSpeed;
     public bool ClockwiseRotation;
+    
     void Update()
     {
         if (ClockwiseRotation == false)
