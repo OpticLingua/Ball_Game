@@ -6,7 +6,6 @@ using TMPro;
 public class ZigZagText : MonoBehaviour
 {
     public TMP_Text textComponent;
-
     private void Update()
     {
         textComponent.ForceMeshUpdate();
@@ -34,6 +33,7 @@ public class ZigZagText : MonoBehaviour
             var meshInfo = textInfo.meshInfo[i];
             meshInfo.mesh.vertices = meshInfo.vertices;
             textComponent.UpdateGeometry(meshInfo.mesh, i);
+            
         }
     }
 }

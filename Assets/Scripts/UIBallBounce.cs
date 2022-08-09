@@ -13,7 +13,7 @@ public class UIBallBounce : MonoBehaviour
         rb.AddForce(new Vector2(20 * Time.deltaTime * speed, 20 * Time.deltaTime * speed));
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         LastVelocity = rb.velocity;
