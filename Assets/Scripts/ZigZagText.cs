@@ -35,5 +35,6 @@ public class ZigZagText : MonoBehaviour
             textComponent.UpdateGeometry(meshInfo.mesh, i);
             
         }
+        
     }
 }

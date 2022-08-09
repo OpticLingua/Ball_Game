@@ -41,4 +41,6 @@ public class EnemySpawner : MonoBehaviour
         randomPowers = Random.Range(0, powers.Length);
         Instantiate(powers[randomPowers], spawnPoints[randomSpawnPoint].position, Quaternion.identity);
    }
+
+    
 }
