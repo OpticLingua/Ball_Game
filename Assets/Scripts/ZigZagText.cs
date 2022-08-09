@@ -33,7 +33,7 @@ public class ZigZagText : MonoBehaviour
             var meshInfo = textInfo.meshInfo[i];
             meshInfo.mesh.vertices = meshInfo.vertices;
             textComponent.UpdateGeometry(meshInfo.mesh, i);
-            
+
         }
         
     }
